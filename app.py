@@ -31,9 +31,9 @@ def extract_features(uploaded):
         summarize(delta2), summarize(centroid), summarize(bandwidth),
         summarize(rolloff), summarize(zcr), summarize(rms)
     ]) 
-scaler = joblib.load("scaler.pkl")
-pca = joblib.load("pca.pkl")
-model = load_model("model.h5")
+scaler = joblib.load("Model/scaler.pkl")
+pca = joblib.load("Model/pca.pkl")
+model = load_model("Model/model.h5")
 st.set_page_config(page_title="Emotion Classifier", page_icon="🎙️", layout="centered")
 
 st.markdown("<h1 style='text-align: center; color: #4A90E2;'>🎧 Speech Emotion Recognition</h1>", unsafe_allow_html=True)

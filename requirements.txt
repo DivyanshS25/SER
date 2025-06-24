@@ -8,3 +8,4 @@ pandas
 matplotlib
 soundfile
 joblib
+numpy==1.24.3

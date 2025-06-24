@@ -102,10 +102,10 @@ Trained on combined **RAVDESS speech and song dataset**.
 ### 📈 Performance Report Screenshot
 
 <p align="center">
-  <img src="Screenshot_performance.png" width="400" alt="Model performance metrics">
+  <img src="Images/Screenshot_performance.png" width="400" alt="Model performance metrics">
 </p>
 <p align="center">
-  <img src="Screenshot_cm.png" width="400" alt="Model performance metrics">
+  <img src="Images/Screenshot_cm.png" width="400" alt="Model performance metrics">
 </p>
 ---
 
@@ -123,7 +123,7 @@ The project includes a clean and interactive **Streamlit frontend** for real-tim
 ### 🖼️ Web App Screenshot
 
 <p align="center">
-  <img src="Screenshot.png" width="400" alt="Streamlit app interface">
+  <img src="Images/Screenshot.png" width="400" alt="Streamlit app interface">
 </p>
 
 ---

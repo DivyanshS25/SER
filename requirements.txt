@@ -1,6 +1,5 @@
-pip
 streamlit
-tensorflow==2.12.0
+tensorflow
 librosa
 scikit-learn
 numpy
@@ -8,4 +7,3 @@ pandas
 matplotlib
 soundfile
 joblib
-numpy._core

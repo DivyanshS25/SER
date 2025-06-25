@@ -117,7 +117,6 @@ The project includes a clean and interactive **Streamlit frontend** for real-tim
 ### 🔧 Features:
 - Upload `.wav` or `.mp3` files
 - Extract features on-the-fly (MFCC, delta, etc.)
-- See predicted emotion with emoji & label
 - View waveform of uploaded audio
 - Visual result display
 

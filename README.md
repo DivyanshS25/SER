@@ -120,6 +120,9 @@ The project includes a clean and interactive **Streamlit frontend** for real-tim
 - View waveform of uploaded audio
 - Visual result display
 
+### Web App URL
+-https://gg-project-4jbjh549ofghppir2neuvq.streamlit.app/
+
 ### 🖼️ Web App Screenshot
 
 <p align="center">

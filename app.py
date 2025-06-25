@@ -60,7 +60,6 @@ if uploaded:
     ax.set_xlabel("Time (s)")
     ax.set_ylabel("Amplitude")
     st.pyplot(fig)
-    st.audio(uploaded, format='audio/wav')
     x_input=extract_features(uploaded).reshape(1,556)
     x_scaled = scaler.transform(x_input)
     x_pca = pca.transform(x_scaled)

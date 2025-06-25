@@ -52,6 +52,14 @@ with col2:
 
 
 if uploaded:
+    y, sr = librosa.load(uploaded, sr=None)
+    st.audio(uploaded, format='audio/wav')
+    st.subheader("Waveform")
+    fig, ax = plt.subplots(figsize=(4, 2))
+    librosa.display.waveshow(y, sr=sr, ax=ax)
+    ax.set_xlabel("Time (s)")
+    ax.set_ylabel("Amplitude")
+    st.pyplot(fig)
     st.audio(uploaded, format='audio/wav')
     x_input=extract_features(uploaded).reshape(1,556)
     x_scaled = scaler.transform(x_input)

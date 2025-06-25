@@ -46,7 +46,7 @@ label_map = {
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("#### Upload Audio")
-    uploaded = st.file_uploader("Choose an audio file", type=["wav", "mp3"])
+    uploaded = st.file_uploader("Choose an audio file", type=["wav", "mp3","ogg","flac","m4a"])
 with col2:
     st.image("https://cdn-icons-png.flaticon.com/512/727/727269.png", width=120)
 
